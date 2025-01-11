@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Задание №2</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <a href="task_main.html">Вернуться к списку заданий</a>
+    <p class="red">Это красный текст</p> <!--несоответсвие класса, был класс-green-->
+    <p class="red" style="color: red">Это тоже красный текст</p> <!--несоответсвие класса, был класс-green-->
+    <b>Это полужирный текст</b> <!--несоответствие, текст был курсив-->
+    <p><b>Это тоже полужирный текст</b></p> <!--несоответствие, текст был полужирный и часть текста курсив-->
+        <p>Все элементы следующего списка (включая подсписок) имеют разные цвета и ни один из них не чёрный:</p>
+        <ul>
+            <li class="blue">Элемент списка</li> <!--изменён с black, на blue-->
+            <ol>
+                <li class="color: red">Первый элемент подсписка</li> <!--изменён с black, на blueviolet-->
+                <li style="color: rgb(25, 207, 12)">Второй элемент подсписка</li>
+            </ol>
+             <li style="color:rgb(234, 188, 6)">Ещё один элемент списка</li> 
+        </ul>
+        <p>
+            <span class="xxsmall">В</span> 
+            <span style="font-size: x-small;">этом</span> <!--добавлен style изменён на x-small-->
+            <span class="medium">абзаце</span> <!--изменён <b> на span-->
+            <span class="xlarge">все</span>
+            <span class="large">слова</span> <!--добавлен class-->
+            <span style="font-size: small;">разного</span> <!--добавлен style="font-size"-->
+            <span style="font-size: xx-large;">размера</span><!--добавлен style-->
+        </p>
+    </body>
+</html>
